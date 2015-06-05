@@ -144,12 +144,12 @@ $hex-bg-sz: 200px;
 }
 
 #hex-image1 {
-    opacity: 1;
+    // opacity: 1;
+    background: url(/assets/img/hex1.jpg) 50% no-repeat; 
+    background-size: $hex-bg-sz;
 }
 
 #hex-image1:hover { 
-    // background: url(/assets/img/hex1.jpg) 50% no-repeat; 
-    // background-size: $hex-bg-sz;
     // @include transform(translateY(200px));
     // &:after {
     //     content: "";
