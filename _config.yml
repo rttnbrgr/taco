@@ -20,6 +20,9 @@ sass:
   sass_dir:          assets/css
   style:            :compressed
 
+# Ignore the design folder
+exclude: [/Design]
+
 # About/contact
 author:
   name:              Mark Otto
